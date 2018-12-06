@@ -38,7 +38,7 @@ if __name__ == '__main__':
 
     # confusion matrix を定義
     confusion_mat = [[0 for i in range(6)] for j in range(6)]
-    '''
+    
     print("Collecting CK+ samples ...")
 
     # CK+データセットにOpenFaceを適用して得たデータをリスト構造で取得
@@ -80,9 +80,9 @@ if __name__ == '__main__':
                         sequence_surprise = normalize(sequence_surprise)
                         list_surprise.append(sequence_surprise)
                         count_surprise+=1
-    ''' 
-
     
+
+    '''
     print("Collecting MMI samples ...")
 
     # MMI データセットにOpenFaceを適用して得たデータセットをリストに追加
@@ -264,10 +264,10 @@ if __name__ == '__main__':
                                         sequence_surprise.pop()
                                 sequence_surprise = np.asarray(sequence_surprise)
                                 """
-                                seqence_surprise = normalize(sequence_surprise)
+                                sequence_surprise = normalize(sequence_surprise)
                                 list_surprise.append(sequence_surprise)
                                 count_surprise+=1
-    
+'''
 
     print()
     print("component:3")
